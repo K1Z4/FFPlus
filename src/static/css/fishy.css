@@ -1,0 +1,129 @@
+html, body {
+    color: #424242;
+}
+input[type=file] {
+    border: 1px solid #424242;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #424242;
+}
+.icon {
+    width: 80px;
+}
+.select-file {
+    background-color: #40a1c4;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 16px 17px 62px -24px rgba(0,0,0,0.75);
+    transition: all .3s;
+    animation-name: light-flash;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+}
+.select-file:hover {
+    background-color: #1f7fa1;
+    transform: translate(-2px, -2px);
+    box-shadow: 19px 20px 62px -24px rgba(0,0,0,0.75);
+}
+.select-file:active {
+    background-color: #167091;
+    transform: translate(2px, 2px);
+    box-shadow: 14px 15px 62px -24px rgba(0,0,0,0.75);
+}
+@keyframes light-flash {
+    0% {background-color: #40a1c4;}
+    5% {background-color: #4bb2d8;}
+    10% {background-color: #40a1c4;}
+}
+/* Header */
+header {
+    position: relative;
+    height: 150px;
+}
+.header-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 50px;
+    margin-top: 25px;
+    padding-left: 5%;
+    transform: skew(0deg,0deg);
+}
+.logo:hover {
+    animation-name: wiggle-fish;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+}
+.fish {
+    position: absolute;
+    left: -100px;
+    height: 80px;
+    animation-name: swimming-fish;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);;
+}
+
+@keyframes swimming-fish {
+    from {right: 100%;}
+    to {left: 100%;}
+}
+
+@keyframes wiggle-fish {
+    from {transform: skew(0deg,0deg);}
+    50% {transform: skew(-21deg,2deg);}
+    to {transform: skew(0deg,0deg);}
+}
+/* Overrides */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px !important;
+    }
+}
+
+/* support-warning */
+.support-warning {
+    padding: 25px;
+    font-weight: bold;
+    background-color: #f5c800;
+    color: #7e6101;
+}
+
+/* Sharing buttons */
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.share-buttons li{
+    display: inline;
+  }
+  
+  ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+  
+  ul.share-buttons img{
+    width: 32px;
+  }

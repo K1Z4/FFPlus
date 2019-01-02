@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="595.275" height="95" viewBox="0 0 595.275 95"
+	 overflow="visible" enable-background="new 0 0 595.275 95" xml:space="preserve" preserveAspectRatio="none">
+<linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="297.6382" y1="78" x2="297.6382" y2="7.105427e-014">
+	<stop  offset="0" style="stop-color:#0F60A4"/>
+	<stop  offset="1" style="stop-color:#59C7D8"/>
+</linearGradient>
+<polygon fill="url(#XMLID_9_)" points="0,78 595.275,40 595.275,0 0,0 "/>
+<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="179.8335" y1="-89.1665" x2="179.8335" y2="-160.1665">
+	<stop  offset="0" style="stop-color:#BEBA32"/>
+	<stop  offset="1" style="stop-color:#59C7D8"/>
+</linearGradient>
+<circle fill="url(#XMLID_10_)" cx="179.833" cy="-124.667" r="35.5"/>
+<polygon opacity="0.05" fill="#FFFFFF" points="56.667,87.25 85.75,88.5 165.667,-92 161.333,-94 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="289.333,79.667 267,80.667 200.25,-94.75 203,-97.5 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="346.333,73 319.335,75.333 209.5,-103.5 211.5,-107.25 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="135.333,99 176.333,98.667 177.667,-88.333 172,-89 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="225,89.333 236,82 193,-90.25 189.25,-88.5 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="-8,97 10,99.25 155.25,-96.75 153,-98.333 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="197.667,108.333 208.333,102.667 182.833,-88.333 181.333,-88 "/>
+<polygon opacity="0.05" fill="#FFFFFF" points="411.333,73.667 393.668,76.333 214.667,-111.667 215.667,-114.667 "/>
+</svg>

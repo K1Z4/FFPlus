@@ -1,0 +1,42 @@
+.feedback {
+    margin: 20px 20px 0 0;
+}
+
+.feedback textarea {
+    resize: none;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    background-color: transparent;
+    transition: all .6s;
+}
+.feedback textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #424242;
+}
+.feedback textarea::-moz-placeholder { /* Firefox 19+ */
+    color: #424242;
+}
+.feedback textarea:-ms-input-placeholder { /* IE 10+ */
+    color: #424242;
+}
+.feedback textarea:-moz-placeholder { /* Firefox 18- */
+    color: #424242;
+}
+
+
+.feedback img {
+    vertical-align: top;
+    padding-top: 6px;
+}
+.feedback button {
+    display: none;
+}
+
+.feedback:focus-within textarea {
+    height: 80px;
+    width: 300px;
+    background-color: white;
+}
+.feedback:focus-within button {
+    display: block;
+}
